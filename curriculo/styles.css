@@ -1,0 +1,89 @@
+body {
+    color: #444;
+    background-color: rgb(255, 255, 255);
+    font-family: "Montserrat", serif;
+    width: 70%;
+    margin: auto;
+
+}
+
+h1 {
+    color: #3f0000;
+    font-weight: bold;
+    text-align: center;   
+    box-sizing: border-box;  
+    padding: 5px; 
+    margin-bottom: 0px                                                                       ;
+}
+
+#info {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+
+.subtitulo {
+    color: #ffffff;
+    background-color: #b90009b7;
+    padding: 8px;
+    border-bottom: rgb(129, 0, 0) solid 2px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+
+h3, h4{
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+
+}
+
+ul {
+    padding-left: 0;
+}
+/* configuração para alinhar a lista com a restante da página*/
+
+li {
+    list-style-position: inside;
+}
+
+.link {
+    color: rgb(71, 0, 0);
+}
+
+.link:visited {
+    color: rgb(255, 125, 125);
+
+}
+
+.menu {
+    text-align: center;
+
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a {
+    background-color: rgb(255, 125, 125);
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 10%;
+}
+
+.menu a:hover {
+    background-color: rgb(71, 0, 0);
+    color: white;
+    text-decoration: none;
+}
